@@ -1,0 +1,6 @@
+length=float(input("enter the length"))
+breath=float(input("enter the breath"))
+area=length*breath
+perimetr=2*(length+breath)
+print ("area of rectangle:", area)
+print ("perimter of rectangle:",perimetr)
