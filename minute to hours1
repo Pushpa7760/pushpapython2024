@@ -1,0 +1,4 @@
+minutes=input("enter the value minutes")
+hour = minutes // 60   
+time = minutes % 60
+print("hour",hour)
