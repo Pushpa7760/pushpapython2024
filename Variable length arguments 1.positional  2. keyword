@@ -1,0 +1,13 @@
+def sum_numbers(*numbers):
+  return sum(numbers)
+print(sum_numbers(1,2,3,4))
+
+
+
+
+
+def pushpa(**numbers):
+  for key, value in numbers.items():
+    print(f"{key} : {value}")
+pushpa(name="pushpa", age = 18, city = "chitradurga")
+
