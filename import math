@@ -1,0 +1,9 @@
+import math
+(math.sqrt(16))
+
+
+
+
+from math import pi,sin
+(pi)
+(sin(math.radians(90)))
