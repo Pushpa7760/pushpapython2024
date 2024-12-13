@@ -1,0 +1,9 @@
+# list with same data types
+numbers=[1,2,3,4,5]
+print(numbers)
+
+
+
+#list with different data types
+x=[1,3,45,9.0,"pushpa"]
+print(x)
