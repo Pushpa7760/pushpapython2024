@@ -1,0 +1,38 @@
+# creating a dictionary
+student={"name":"pushpa",
+          "age":17,
+           "class":"enginering"}
+print(student)
+
+
+
+
+
+#modify
+student["class"] = "B.tech"
+print(student)
+
+
+
+#adding
+student["section"]="G"
+print(student)
+
+
+
+
+
+
+#removing
+del student["age"]
+print(student)
+
+
+
+
+
+# Iterating Through a Dictionary
+student1={"name":"XYZ","Grade":"A","Age":13}
+for key,value in student1.items():
+  print(key,value)
+
