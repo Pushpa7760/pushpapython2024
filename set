@@ -1,0 +1,39 @@
+# creating set
+b={1,2,4,8,0}
+b
+
+
+
+#adding
+b.add(9)
+b
+
+
+
+
+#removing items
+b.remove(2)
+b
+
+
+
+# union set
+a={1,2,3,4,5}
+b={2,4,98,90}
+a.union(b)
+
+# intersection set
+v={1,3,90,100,67}
+n={1,3,90,100}
+v.intersection(n)
+
+
+# difference
+v.difference(n)
+
+
+
+
+
+
+
