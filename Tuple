@@ -1,0 +1,9 @@
+# creating tuples
+coordinates=(10,20,40)
+print(coordinates)
+
+
+
+#Acessing Items in a tuple
+print(coordinates[2])
+print(coordinates)
