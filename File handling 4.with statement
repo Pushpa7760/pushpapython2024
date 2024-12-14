@@ -1,0 +1,4 @@
+# using with
+with open("/content/pushpa SIET.txt ","r") as file:
+  content=file.read()
+  print(content)
