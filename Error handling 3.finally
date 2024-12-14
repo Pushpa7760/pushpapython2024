@@ -1,0 +1,6 @@
+try:
+  file=open("example.text","r")
+except FileNotFoundError:
+  print("file not found")
+finally:
+  print("Execution completed")
