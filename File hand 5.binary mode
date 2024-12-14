@@ -1,0 +1,2 @@
+with open("/content/pushpa SIET.txt ","rb") as file:
+  data= file.read()
