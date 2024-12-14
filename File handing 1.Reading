@@ -1,0 +1,31 @@
+file = (" /content/pushpa SIET.txt"," r")
+
+
+# Reading a file
+file = open("/content/pushpa SIET.txt","r")
+content= file.read()
+print(content)
+file.close()
+
+
+
+
+# Reading a file with readline
+file= open ("/content/pushpa SIET.txt","r")
+content=file.readline()
+print(content)
+file.close()
+
+
+
+# Read a line with readlines
+file=open("/content/pushpa SIET.txt","r")
+content=file.readlines()
+print(content)
+file.close()
+
+
+
+
+
+
